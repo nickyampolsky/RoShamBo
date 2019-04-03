@@ -27,6 +27,17 @@ class RoShamBo {
         else if(this.player.choice = 2 && this.computer.choice = 3){
              return "Player Lost!";
         }
+        else if(this.player.choice = 2 && this.computer.choice = 1){
+             return "Player Won!";
+        }
+          else if(this.player.choice = 3 && this.computer.choice = 1){
+             return "Player Lost!";
+        }
+          else if(this.player.choice = 3 && this.computer.choice = 2){
+             return "Player Won!";
+        }
+
+
 
 
 
